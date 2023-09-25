@@ -6,30 +6,32 @@
 }
 
 .vagas {
-    width: 1440px;
-    height: 407px;
-    padding: 96px 0px 96px 0px;
-    gap: 24px;
-    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 5% 0;
+    gap: 2%;
     text-align: center;
     font-family: var(--font-default);
 }
 
 .vagas-abertas {
-    size: 14px;
-    color: var(--main-color);
+    font-size: 1,8rem; 
     font-weight: 500;
     background-color: #8E24240D;
-    border-radius: 8px;
-    width: 300px;
-    height: 50px;
+    color: var(--main-color);
+    border-radius: 16px;
+    width: 90%; 
+    max-width: 300px; 
+    height: auto;
+    margin: 1% auto; 
+    padding: 4px 12px 4px 12px;
 }
 
 .vagas-main {
-    font-size: 36px;
+    font-size: 2rem; 
     font-weight: 600;
-    margin: 32px 0px 32px 0px;
-    gap: 12px;
+    margin: 1% 0;
+    gap: 0.5%;
 }
 
 .vagas-conteiner {
@@ -40,64 +42,57 @@
 
 .vagas p {
     color: var(--text-color);
-    width: 792px; 
-    height: 83px; 
-    text-align: center;
-    font-size: 20px;
+    max-width: 90%; 
+    font-size: 1rem;
     font-weight: 400;
-    margin: 0;
+    margin-bottom: 50px;
 }
 
 .reuniao img {
-    width: 1216px;
-    height: 400px;
-    margin-bottom: 80px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%; 
 }
 
 .descricao-vagas {
-    width: 1440px;
-    height: 1000px;
-    display: inline-block;
-    align-items: center;
+    max-width: 100%;
+    height: auto;
     text-align: center;
 }
 
 .descricao-vagas h1 {
-    font-size: 20px;
+    font-size: 1.25rem;     
     font-weight: 600;
     color: black;
-    margin-bottom: 30px;
-    display: flex;
-    margin-left: 360px;
+    margin-bottom: 2%;
+    text-align: center;
 }
 
 .vaga-conteiner {
-    width: 738px;
-    height: 136px;
+    max-width: 90%; 
+    height: auto;
     border: solid 1px var(--border-color);
     border-radius: 16px;
     display: inline-block;
     align-items: center;
-    padding: 24px 24px 28px 24px;
-    margin-bottom: 32px;
+    padding: 3% 3.5%; 
+    margin-bottom: 3%; 
 }
 
 .titulo-vaga {
-    font-size: 18px;
+    font-size: 1rem; 
     font-weight: 500;
-    display: flex;
     text-align: left;
 }
 
 .informacoes {
-    font-size: 16px;
+    font-size: 0.9rem; 
     font-weight: 500;
     color: var(--text-color);
-    margin-top: 32px;
-    display: flex;
+    margin-top: 2%;
     text-align: left;
 }
 
 .espaço-entre {
-    margin-left: 20px;
+    margin-left: 1rem; 
 }

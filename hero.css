@@ -5,14 +5,16 @@
 }
 
 .hero {
-    width: 1440px;
-    height: fixed 407px;
-    padding: 96px 0px 96px 0px;
-    gap: 24px;
-    display: inline-block;
+    max-width: 100%; /* Limita a largura máxima a 100% do contêiner pai */
+    height: auto; /* Redimensiona automaticamente a altura de acordo com a largura */
+    padding: 5% 0; /* Use unidades percentuais para o preenchimento superior/inferior */
+    gap: 2%; /* Use unidades percentuais para a lacuna entre os elementos */
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-family: var(--font-default);
 }
+
 
 .hero-sobre-nos {
     size: 16px;
