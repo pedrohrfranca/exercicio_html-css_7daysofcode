@@ -1,0 +1,41 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --font-default: 'Inter', sans-serif;
+}
+
+.hero {
+    width: 1440px;
+    height: fixed 407px;
+    padding: 96px 0px 96px 0px;
+    gap: 24px;
+    display: inline-block;
+    text-align: center;
+    font-family: var(--font-default);
+}
+
+.hero-sobre-nos {
+    size: 16px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.hero-main {
+    margin: 32px 0px 32px 0px;
+    gap: 12px;
+}
+
+.hero-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero p {
+    color: var(--text-color);
+    width: 792px; 
+    height: 83px; 
+    text-align: center;
+    margin: 0;
+}
+

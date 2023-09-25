@@ -1,0 +1,37 @@
+:root {
+    --font-default:'Inter', sans-serif;
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
+.metricas-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 320px;
+    height: 190px;
+    font-family: var(--font-default);
+}
+
+.box h1 {
+    color: var(--main-color);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.box h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}

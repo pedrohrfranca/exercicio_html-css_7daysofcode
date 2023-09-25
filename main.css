@@ -1,0 +1,86 @@
+:root {
+    --font-default: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-default);
+}
+
+body {
+    font-family: var(--font-default);
+}
+
+header {
+    width: auto;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 32px;
+    background-color: #ffffff;
+}
+
+.logo-nome {
+    color: #3A404E;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h1 {
+    margin-left: 5px;
+}
+
+.paginas {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    align-items: center;
+    margin-left: 40px;
+    width: 46px;
+    height: 24px;
+}
+
+li a {
+    color: #667085;
+    text-decoration: none;
+}
+
+
+.botoes {
+    display: inline-block;
+}
+
+.button {
+    color: #fff;
+    background-color: #8E2424;
+    width: 112px;
+    height: 44px;
+    border-radius: 10px;
+    text-align: center; /* Alinhe o texto no centro do botão */
+    line-height: 44px; /* Centralize verticalmente o texto no botão */
+    cursor: pointer; /* Adicione um indicador de cursor ao passar o mouse */
+    font-weight: bold; /* Adicione negrito para melhor legibilidade */
+    text-decoration: none; /* Remova sublinhado padrão para links */
+    display: inline-block; /* Certifique-se de que o botão não seja exibido como bloco */
+    transition: background-color 0.2s ease; /* Adicione uma transição suave de cor de fundo */
+}
+
+
+.button:hover {
+    background-color: #5b1515; /* Cor diferente ao passar o mouse */
+}
+
+
+
+
