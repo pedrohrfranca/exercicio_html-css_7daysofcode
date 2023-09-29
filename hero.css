@@ -5,10 +5,10 @@
 }
 
 .hero {
-    max-width: 100%; /* Limita a largura máxima a 100% do contêiner pai */
-    height: auto; /* Redimensiona automaticamente a altura de acordo com a largura */
-    padding: 5% 0; /* Use unidades percentuais para o preenchimento superior/inferior */
-    gap: 2%; /* Use unidades percentuais para a lacuna entre os elementos */
+    max-width: 100%; 
+    height: auto; 
+    padding: 5% 0; 
+    gap: 2%; 
     display: flex;
     flex-direction: column;
     text-align: center;

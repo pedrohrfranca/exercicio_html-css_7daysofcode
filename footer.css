@@ -7,24 +7,24 @@
 
 .footer {
     width: 100%;
-    height: auto; /* Alterado para altura automática */
+    height: auto; 
     background-color: var(--back-ground-color);
-    display: block; /* Alterado para display block para que o conteúdo se ajuste à largura da tela */
+    display: block;
     text-align: center;
-    padding: 4% 0; /* Use porcentagem para o preenchimento superior/inferior */
+    padding: 4% 0; 
 }
 
 .footer h1 {
-    font-size: 2rem; /* Use rem para tamanho de fonte responsivo */
+    font-size: 2rem; 
     font-weight: 600;
-    margin-top: 2%; /* Espaçamento superior reduzido */
+    margin-top: 2%; 
 }
 
 .footer h2 {
-    font-size: 1.25rem; /* Use rem para tamanho de fonte responsivo */
+    font-size: 1.25rem; 
     font-weight: 400;
     color: var(--text-color);
-    margin-top: 2%; /* Espaçamento superior reduzido */
+    margin-top: 2%; 
 }
 
 .footer-cadastro {
@@ -52,8 +52,8 @@ button[type="submit"] {
 }
 
 .footer h3 {
-    font-size: 0.85rem; /* Use rem para tamanho de fonte responsivo */
+    font-size: 0.85rem; 
     font-weight: 400;
     color: var(--text-color);
-    margin-top: 2%; /* Espaçamento superior reduzido */
+    margin-top: 2%; 
 }

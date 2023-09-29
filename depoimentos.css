@@ -47,8 +47,8 @@
 }
 
 .depoimentos-conteiner p {
-    font-size: 0.875rem; /* Use rem para tamanho de fonte responsivo */
+    font-size: 0.875rem; 
     font-weight: 400;
     color: var(--text-color);
-    margin-top: 0.5%; /* Espaçamento superior reduzido */
+    margin-top: 0.5%; 
 }
